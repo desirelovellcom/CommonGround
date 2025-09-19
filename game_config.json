@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "title": "Intelligent Internet - Gamified Whitepaper",
+  "description": "Learn about the Intelligent Internet through Tetris-like gameplay",
+  "author": "Open Source Community",
+  "license": "MIT",
+  "gameplay": {
+    "initial_fall_speed": 500,
+    "speed_increase_per_level": 50,
+    "min_fall_speed": 50,
+    "lines_per_level": 10,
+    "base_score_per_line": 100
+  },
+  "ui": {
+    "window_width": 1200,
+    "window_height": 800,
+    "grid_width": 12,
+    "grid_height": 20,
+    "block_size": 30
+  },
+  "colors": {
+    "background_gradient_start": [20, 20, 40],
+    "background_gradient_end": [5, 5, 15],
+    "grid_lines": [80, 80, 120],
+    "text_primary": [255, 255, 255],
+    "text_secondary": [200, 200, 200]
+  },
+  "educational_content": {
+    "show_detailed_info": true,
+    "auto_scroll_info": false,
+    "highlight_new_concepts": true
+  }
+}
