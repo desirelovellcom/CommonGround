@@ -2,8 +2,12 @@
 
 import type * as React from "react"
 import * as TabsPrimitive from "@radix-ui/react-tabs"
+import { type ClassValue, clsx } from "clsx"
+import { twMerge } from "tailwind-merge"
 
-import { cn } from "../../lib/utils"
+function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
 
 function Tabs({ className, ...props }: React.ComponentProps<typeof TabsPrimitive.Root>) {
   return <TabsPrimitive.Root data-slot="tabs" className={cn("flex flex-col gap-2", className)} {...props} />
