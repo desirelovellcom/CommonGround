@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="intelligent-internet-game",
+    name="commonground-protocol",
     version="1.0.0",
-    description="Gamified Tetris-like interface for the Intelligent Internet whitepaper",
+    description="CommonGround interface for the Intelligent Internet whitepaper",
     author="Open Source Community",
     author_email="community@example.com",
     packages=find_packages(),
@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "ii-game=main:main",
+            "commonground=main:main",
         ],
     },
 )

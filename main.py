@@ -13,8 +13,7 @@ pygame.init()
 WINDOW_WIDTH = 1200
 WINDOW_HEIGHT = 800
 GRID_WIDTH = 12
-G
-RID_HEIGHT = 20
+GRID_HEIGHT = 20
 BLOCK_SIZE = 30
 GRID_X = 50
 GRID_Y = 100
@@ -48,10 +47,10 @@ class GameBlock:
     info: str
     shape: List[List[int]]
 
-class IntelligentInternetGame:
+class CommonGroundGame:
     def __init__(self):
         self.screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-        pygame.display.set_caption("Intelligent Internet - Gamified Whitepaper")
+        pygame.display.set_caption("CommonGround - Intelligent Internet Protocol")
         self.clock = pygame.time.Clock()
         self.font = pygame.font.Font(None, 24)
         self.title_font = pygame.font.Font(None, 48)
@@ -293,8 +292,7 @@ class IntelligentInternetGame:
     
     def draw_ui(self):
         """Draw user interface elements"""
-        # Title
-        title = self.title_font.render("Intelligent Internet", True, (255, 255, 255))
+        title = self.title_font.render("CommonGround Protocol", True, (255, 255, 255))
         self.screen.blit(title, (WINDOW_WIDTH // 2 - title.get_width() // 2, 10))
         
         # Score panel
@@ -456,5 +454,5 @@ class IntelligentInternetGame:
         pygame.quit()
 
 if __name__ == "__main__":
-    game = IntelligentInternetGame()
+    game = CommonGroundGame()
     game.run()

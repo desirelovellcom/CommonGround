@@ -1,11 +1,11 @@
-# CommonGround
+# CommonGround - Intelligent Internet Protocol
 
-A Tetris-like game that teaches the concepts from the Intelligent Internet whitepaper through interactive gameplay.
+A CommonGround interface that teaches the concepts from the Intelligent Internet whitepaper through interactive gameplay.
 
 ## Features
 
 - **Black background with pastel gradients** - Beautiful visual design
-- **Tetris-like gameplay** - Familiar mechanics with educational content
+- **CommonGround mechanics** - Familiar block-based interface with educational content
 - **Memory efficient** - Optimized for smooth performance
 - **Open source** - MIT licensed, easy to modify
 - **Educational** - Learn about II-Agents, Foundation Coins, and more
@@ -32,12 +32,12 @@ Each falling block represents a key component of the Intelligent Internet:
 \`\`\`bash
 # Clone the repository
 git clone <your-repo-url>
-cd intelligent-internet-game
+cd commonground-protocol
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the game
+# Run the application
 python main.py
 \`\`\`
 
@@ -47,7 +47,7 @@ python main.py
 - **↑** : Rotate blocks
 - **Mouse Click** : Select blocks for detailed information
 
-## Game Mechanics
+## CommonGround Mechanics
 
 1. **Falling Blocks**: Each block represents an II component
 2. **Line Clearing**: Complete horizontal lines to score points
@@ -93,4 +93,4 @@ MIT License - Feel free to modify and distribute!
 - Efficient collision detection
 - Scalable UI system
 
-Perfect for uploading to GitHub and sharing the Intelligent Internet concepts through engaging gameplay!
+Perfect for uploading to GitHub and sharing the Intelligent Internet concepts through engaging CommonGround interface!
