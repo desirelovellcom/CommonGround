@@ -1,4 +1,4 @@
-# Intelligent Internet - Gamified Whitepaper
+# CommonGround
 
 A Tetris-like game that teaches the concepts from the Intelligent Internet whitepaper through interactive gameplay.
 
