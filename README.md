@@ -2,6 +2,8 @@
 
 A CommonGround interface that teaches the concepts from the Intelligent Internet whitepaper through interactive gameplay.
 
+THIS IS BASED off of https://ii.inc/web Emad Mostaque's Common Ground https://ii.inc/web/whitepaper
+
 ## Features
 
 - **Black background with pastel gradients** - Beautiful visual design
