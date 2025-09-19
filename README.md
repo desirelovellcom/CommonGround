@@ -38,8 +38,7 @@ cd commonground-protocol
 pip install -r requirements.txt
 
 # Run the application
-python main.py
-\`\`\`
+python main.py https://v0.app/chat/common-ground-jnm35UerABA
 
 ### Controls
 - **← →** : Move blocks left/right
