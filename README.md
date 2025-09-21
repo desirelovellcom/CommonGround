@@ -2,8 +2,6 @@
 
 A CommonGround interface that teaches the concepts from the Intelligent Internet whitepaper through interactive gameplay.
 
-THIS IS BASED off of https://ii.inc/web Emad Mostaque's Common Ground https://ii.inc/web/whitepaper
-
 ## Features
 
 - **Black background with pastel gradients** - Beautiful visual design
@@ -40,7 +38,8 @@ cd commonground-protocol
 pip install -r requirements.txt
 
 # Run the application
-python main.py https://v0.app/chat/common-ground-jnm35UerABA
+python main.py
+\`\`\`
 
 ### Controls
 - **← →** : Move blocks left/right
